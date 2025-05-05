@@ -1,0 +1,34 @@
+body {
+  background-color: #f4f4f4;
+
+}
+#h1 {
+  text-align: center;
+}
+.color-grid {
+  margin-left: 20%;
+}
+.color-box {
+  justify-content: right;
+  background-color: purple;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px 20px 10px 20px;
+}
+.color1 {
+  background-color: #FF0FFF;
+}
+.color2 {
+  background-color: rgb(0, 200, 0);
+}
+.color3 {
+  background-color: blue;
+}
+.color4 {
+  background-color: hsl(10, 100%, 50%);
+}
+.color5 {
+  background-color: #1C0184;
+}

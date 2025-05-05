@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+
+input:focus, textarea:focus {
+  border-color: midnightblue;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+  border-color: green;
+}
+
+button:hover {
+  background-color: #35C2FF;
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: red;
+  background-color: purple;
+  box-shadow: 0 0 5px green;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: green;
+}
+
+input:first-of-type {
+    background-color: #f8f8f8;
+    font-weight: bold;
+ }
+
+button {
+  background-color: green;
+  width: 400px;
+  padding: 1%;
+}
+
+.container {
+  margin: 0 0 50% 13%;
+  
+}
+
+fieldset {
+  margin-right: 60px;
+}
+
+ p, legend, .label-bold {
+  font-weight: bold;
+}
+
+input, fieldset, textarea, button, select {
+  border-radius: 5px;
+}
