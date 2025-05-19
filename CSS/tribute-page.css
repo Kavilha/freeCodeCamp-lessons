@@ -1,0 +1,38 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+main {
+  background-color: #E5E2E8;
+  margin: 10px 20px;
+  padding: 10px 0;
+}
+
+h1, #sub-title, h2 {
+  text-align: center;
+}
+#img-div {
+  background-color: white;
+  padding: 20px 20px 1px 20px;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul li {
+  margin: 10px;
+}
+#italic {
+  font-style: italic;
+}
+#more {
+  font-weight: bold;
+  text-align: center;
+}
+#tribute-link {
+  color: #1E6FFF;
+}
+#tribute-link:hover {
+  color: blue;
+}
